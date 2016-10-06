@@ -3,4 +3,7 @@
 void main()
 {
 	printf("I'm func1\n");
+#ifdef DEBUG
+	printf("This is scond\n");
+#endif
 }
