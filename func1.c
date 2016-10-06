@@ -6,6 +6,7 @@ void master_foo1()
 }
 void main()
 {
+	master_foo1();
 	printf("I'm func1\n");
 	printf("I'm debug 123 hahahahaha\n");
 #ifdef DEBUG
