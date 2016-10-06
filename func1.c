@@ -1,5 +1,9 @@
 #include<stdio.h>
 
+void master_foo1()
+{
+	printf("Hello I'm master_foo\n");
+}
 void main()
 {
 	printf("I'm func1\n");
