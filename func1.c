@@ -1,12 +1,13 @@
 #include<stdio.h>
 
-void master_foo1()
+
+void foo1()
 {
-	printf("Hello I'm master_foo\n");
+	printf("Hello I'm foo1\n");
 }
 void main()
 {
-	master_foo1();
+	foo1();
 	printf("I'm func1\n");
 	printf("I'm debug 123 hahahahaha\n");
 #ifdef DEBUG
