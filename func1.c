@@ -3,4 +3,5 @@
 void main()
 {
 	printf("I'm func1\n");
+	return ;
 }
