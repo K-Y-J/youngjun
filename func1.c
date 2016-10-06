@@ -1,5 +1,11 @@
 #include<stdio.h>
 
+
+
+void foo1()
+{
+	printf("Hello I'm foo1\n");
+}
 void main()
 {
 	printf("I'm func1\n");
